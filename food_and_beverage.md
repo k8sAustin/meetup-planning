@@ -13,35 +13,39 @@ The F&B organizer is responsible for:
     - Meeting end: coordinating cleanup of garbage and leftovers
 
 Budget:
-    - When possible, we search for sponsors to cover the cost of F&B with a budget is $200/meeting.
+    - When possible, we search for sponsors to cover the cost of F&B with a budget is $300/meeting.
     - Otherwise, the organizer pays out of pocket and submits expense receipts for remibursement from the organization.
 
 ## Food Menu and Vendors
 
 We cover hot food for vegetarian and non-vegetarian.
 
-Pizzas:
-    - Cheese, quantity:
-    - Pepperoni, quantity:
-    - Pineapple, quantity:
-    - Condoments?
+Pizzas: 5 total
+    - Cheese, quantity: 1
+    - Pepperoni, quantity: 2
+    - Margahetta, quantity: 1
+    - Mundi, quantity: 1
     - Napkins, plates, and cuttlery?
 
 Vendor:
-    - X with delivery
-      - Previous bill: $X on 2025-06-xx
+    - [East Side Pies with delivery](https://eastsidepies.com) Rosewood (512) 524-0933
+    - Previous bill: $214.47 with tip ($30) on 2025-04
 
 ## Beverage
 
 We cover basic choices for everyone.
 Some of these may be sourced from other organizers?
 
-Ice chest(s):?
-    - Ice?, quantity:
+Ice:
+    - Bag of ice, quantity: 2
+    - Bring your own ice chest: 1
 Water:
-    - Bottles, quantity:
+    - 24 pack Bottles, quantity: 1
 Soda:
-    - Coke or Pepsi, quantity:
-    - ?, quantity:
+    - Cola twelve-pack, quantity: 1
+    - Lemon-Lime twelve-pack, quantity: 1
 Beer:
-    - ?, quantity:
+    - Six pack (IPA, Pilsner, Lager), quantity: 3
+
+# Parking Lot
+- We should buy a K8sAustin ice chest with wheels, store it with the organizer who will take the next month's F&B
