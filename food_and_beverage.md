@@ -16,7 +16,7 @@ The F&B organizer is responsible for coordinating with a F&B sponsor for payment
 
 Budget:
 
-- When possible, we search for sponsors to cover the cost of F&B with a budget is $300/meeting.
+- When possible, we search for sponsors to cover the cost of F&B with a budget of $300/meeting.
 - Otherwise, the organizer pays out of pocket and submits expense receipts for remibursement from the organization.
 
 ## Food Menu and Vendors
