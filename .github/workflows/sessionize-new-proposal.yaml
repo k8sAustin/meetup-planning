@@ -23,7 +23,7 @@ jobs:
       run: |
         SESSIONIZE_LATEST_SESSION_ID=$(curl -s $SESSIONIZE_SESSION_LIST_URL | jq -r '.[].sessions[].id' | sort -u | tail -n 1)
         if [ "$SESSIONIZE_LATEST_SESSION_ID_PREVIOUS" -eq "$SESSIONIZE_LATEST_SESSION_ID" ]; then
-          continue
+          ;
         else
           SESSIONIZE_NEW_SESSIONS=$(curl -s $SESSIONIZE_SESSION_LIST_URL | jq -r --arg SESSIONIZE_LATEST_SESSION_ID_PREVIOUS "$SESSIONIZE_LATEST_SESSION_ID_PREVIOUS" '[.[].sessions[] | select(.id > $SESSIONIZE_LATEST_SESSION_ID_PREVIOUS) | {id, title, description, speakers: ([.speakers[].name] | join(", "))}]')
           echo $SESSIONIZE_NEW_SESSIONS | jq -c '.[]' | while read -r object; do
