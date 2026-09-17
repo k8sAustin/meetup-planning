@@ -12,83 +12,18 @@ This is the rough steps in how to create a meetup event from scratch.
 
 ![inform the speakers](pictures/sessionize/inform-speakers.png)
 
-## Canva: Create Art and Upload them on Google Drive
+## Create the event artwork
 
-### Canva
+Use [create-arts-for-events](skills/create-arts-for-events/SKILL.md) with the Sessionize sessions, current event details, and sponsor logos to create the ocgroups.dev long banner, short mobile banner, and meetup.com banner.
 
-Create three pieces of art for the event:
-1. An event banner for Bevy
-1. An event logo for Bevy (reuse for LinkedIn)
-1. An event banner for Meetup
+## Create the ocgroups.dev event
 
-Login on [Canva](https://canva.com) and look for [K8sAustin](https://www.canva.com/folder/FAF7fBq_SQc) folder.
+Use [create-ocgroups-event](skills/create-ocgroups-event/SKILL.md) to create the event draft with its agenda, venue, sponsors, and artwork. Review and publish the event yourself before preparing the Meetup listing.
 
-Create a new folder under this folder with the format "YYYY-MM-DD" for the date of the meetup. For the next steps, please create the arts and save them under this folder.
-We usually create a single art for both speakers, you must collect their picture from the sessionize website.
+## Prepare the Meetup event
 
-For #1, it is a `2560 x 650 px` banner, look for files named `bevy-banner-k8s-austin-meetup-<date>`, pick one and save as and edit the speakers' name, picture and companies.
-*Leave the middle of the banner blank*.
-Example
+Use [create-meetup-dot-com-event](skills/create-meetup-dot-com-event/SKILL.md) with the published ocgroups.dev event link and existing artwork. The skill fills the Meetup form without saving or publishing it. Review the form, complete any flagged settings, then save, publish, and announce the event.
 
-![bevy-banner-example](pictures/canva/bevy-banner-example.png)
+## Prepare the LinkedIn promotion
 
-For #2, it is a `1080 x 1080 px` tile for the logo. Look for files named `bevy-k8s-austin-event-logo-<date>`.
-Same drill, pick one, save as and edit it with the title and date.
-Example:
-
-![bevy-logo-example](pictures/canva/bevy-logo-example.png)
-
-For #3, it is required for the meetup page a `1200 x 675 px`. Look for files named  `meetup-banner-k8s-austin-meetup-<date>`.
-
-### Google Drive
-
-Create a new folder under our [Google Drive](https://drive.google.com/drive/u/0/folders/1VNMGy8GB9ehdlfabIrdEEQLDHg3KHGdq) and upload all arts, under the current year.
-The same folder will contain the Google Slides presentation for the meetup.
-
-## Create a Bevy Event
-
-Log on [Bevy](https://community.cncf.io/accounts/dashboard/#/chapter-177/events-Live), make sure you have access to the Kubernetes Austin dashboard: 
-
-![Kubernetes Austin Dashboard](pictures/bevy/dashboard-example.png)
-
-It is easier to duplicate a previous event than to click at `New Event -> Meetup` and follow the prompts.
-Copy and paste from the previous event, we always link the speaker's name to their LinkedIn profile.
-
-If the event is being hosted at [Capital Factory](https://www.capitalfactory.com), please make sure their logo and address are displayed (for contractual reasons).
-Desirably, if you have the name of the room, make sure it is displayed correctly and prominently.
-Upload the event banner and thumbnail you made previously.
-Add all the co-organizers as host. Add sponsors (whoever is paying for foods and drinks).
-Use the option to RSVP, we usually limit capacity to 50 people.
-
-## Create a K8sAustin.com/ShortURL
-
-Once you have a URL for the event, go to [https://github.com/k8sAustin/k8saustincom/blob/main/_redirects](https://github.com/k8sAustin/k8saustincom/blob/main/_redirects) and edit file or submit a pull request. Test it: https://K8sAustin.com/ShortURL-example
-
-## Create a Meetup Event
-
-Log on [Meetup](https://www.meetup.com/home/), view the dashboard (like below) and click at `Create Event`.
-Use the "Copy the Last Event" button or copy and paste from a previous event.
-Link to the Bevy event because of CNCF ownership; we hope to migrate off Meetup.
-Make sure to add descriptive topics, such as: `kuberenetes, cloud native, open source`.
-
-![Meetup Dashboard](pictures/meetup.com/dashboard-example.png)
-
-## Promote the Event!
-
-[Via Buffer](posting-on-buffer.md).
-
-Schedule (ideally three) two weeks before, one week before, a few days before the event!
-Update descriptions (and graphics if you have the energy) with last minute changes or the confirmed room.
-
-# Week of the Event
-
-## Prepare Slides (the Monday before)
-- Copy the previous month's slides in Google Drive, update the following:
-  - Month
-  - Speaker sessions
-  - Sponsors
-  - Next month's date/location and speakers (if known)
-- Review with team and ask for reviews, additions.
-
-## Plan Food & Beverage
-- [F&B: Food and Beverage Planning](food_and_beverage.md)
+Use [promote-event-after-creation](skills/promote-event-after-creation/SKILL.md) to check LinkedIn Page permissions, create one draft post, and return its draft URL. The skill also adds the Meetup event link to the matching ocgroups.dev event when a verified public Meetup URL is available. The LinkedIn post remains a draft, accessible when starting a new post as the Page; review and publish it yourself. This skill can also run independently with event artwork and a published ocgroups.dev link.

@@ -79,11 +79,10 @@ Welcome to the Kubernetes Austin organizing team! This checklist ensures all new
   - Bluesky: https://bsky.app/profile/k8saustin.com
 - [ ] **Test access:** Verify they can create and schedule posts
 
-#### Buffer (Social Media Scheduling)
-- [ ] **Share Buffer credentials:** buffer.com
-  - Credentials located in shared vault in 1Password
-  - Walk through posting workflow: [posting-on-buffer.md](posting-on-buffer.md)
-- [ ] **Test access:** Have them schedule a test post (delete after testing)
+#### LinkedIn Event Drafts
+- [ ] **Review the promotion skill:** [promote-event-after-creation](skills/promote-event-after-creation/SKILL.md)
+  - Confirm LinkedIn Page posting permissions before creating a draft
+  - Review the draft before publishing
 
 ### File Storage & Documentation
 - [ ] **Add as editor to Google Drive:** https://drive.google.com/drive/folders/1VNMGy8GB9ehdlfabIrdEEQLDHg3KHGdq?usp=drive_link
@@ -124,7 +123,6 @@ Welcome to the Kubernetes Austin organizing team! This checklist ensures all new
 - [Event Planning Workflow](creating-an-event.md)
 
 **Security Notes:**
-- Buffer credentials should be shared securely
 - Encourage 2FA on all platforms where available
 - Review access quarterly and remove inactive organizers
 

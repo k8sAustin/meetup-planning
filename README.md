@@ -9,7 +9,7 @@ planning monthly meetups for Kubernetes Austin CNCF
 
 [F&B](food_and_beverage.md): Food and Beverage
 
-[Divulging an Event](posting-on-buffer.md)
+[Prepare a LinkedIn Event Draft](skills/promote-event-after-creation/SKILL.md)
 
 [During the Event](during-the-event.md)
 
