@@ -1,0 +1,115 @@
+{
+  "status": "draft_saved",
+  "group_name": "Kubernetes Austin",
+  "group_url": "https://ocgroups.dev/cncf/group/3up7rjk",
+  "event_id": "21067ec0-c126-4005-b39f-8d05f2c523f1",
+  "draft_url": "https://ocgroups.dev/dashboard/group?tab=events",
+  "public_url": null,
+  "event": {
+    "title": "Ultimate AI: Go with your own intelligence",
+    "short_description": "Ultimate AI: Go with your own intelligence",
+    "date": "2026-10-22",
+    "start_time": "18:00",
+    "end_time": "20:00",
+    "timezone": "America/Chicago",
+    "arrival_time": "after 5:45 PM (venue boilerplate)",
+    "format": "in-person",
+    "category": "Meetup",
+    "venue": {
+      "name": "Station Austin - Apollo Room (1st Floor)",
+      "address": "701 Brazos St",
+      "city": "Austin",
+      "state": "Texas",
+      "state_code": "TX",
+      "zip_code": "78701",
+      "country": "United States",
+      "country_code": "US",
+      "latitude": null,
+      "longitude": null
+    },
+    "room_confirmation": "Apollo Room, 1st Floor - confirmed by the organizer for this event",
+    "description_file": "event-description.md",
+    "sessions": [
+      {
+        "title": "Ultimate AI: Go with your own intelligence",
+        "start_time": "18:30",
+        "end_time": null,
+        "kind": "In-Person",
+        "speakers": [
+          "Bill Kennedy"
+        ],
+        "platform_speaker_association": null,
+        "abstract_chars": 1025
+      }
+    ],
+    "speakers": [
+      "Bill Kennedy"
+    ],
+    "hosts": [
+      "Rafael Brito (@britorafa0)",
+      "Harsha Thirimanna (@harsha.thirimanna)",
+      "Sammy Cheung (@cloudprosam)",
+      "Cristobal Nicolas Nevares (@cris.nevares)",
+      "Akshay Mittal (@akshaymittal143)",
+      "Myroslav Mishov (@zg7izkv9vwjeeq3t)",
+      "Srihari Nagaram (@snagaram3)"
+    ],
+    "sponsors": [
+      {
+        "name": "Station Austin",
+        "level": "Gold"
+      },
+      {
+        "name": "Cast AI",
+        "level": "Gold"
+      },
+      {
+        "name": "Ardan Labs",
+        "level": "Gold"
+      }
+    ],
+    "registration": {
+      "type": "RSVP via free ticket",
+      "ticket_name": "General Admission",
+      "seats": 50,
+      "availability": "public",
+      "waitlist": false,
+      "invitation_approval": false,
+      "registration_window": null,
+      "event_reminder_24h": true
+    },
+    "meetup_url": null
+  },
+  "artwork_manifest": "artwork-manifest.json",
+  "artwork_assignments": [
+    {
+      "role": "ocgroups_long",
+      "file": "ocgroups.dev-long-banner.png",
+      "platform_field": "Banner (2428 x 192)"
+    },
+    {
+      "role": "ocgroups_short_mobile",
+      "file": "ocgroups.dev-short-banner-mobile.png",
+      "platform_field": "Banner Mobile (1220 x 192)"
+    },
+    {
+      "role": "community_logo",
+      "file": null,
+      "source": "pictures/logos/cloudnativeaustin-whitebackground.png (uploaded by the organizer)",
+      "platform_field": "Logo (360 x 360)"
+    }
+  ],
+  "sponsors_created": [],
+  "missing_inputs": [],
+  "verification_notes": [
+    "Reopened the saved event: status DRAFT in the group's Upcoming events list; the Public page link is disabled; Publish was not clicked.",
+    "Persisted: name, In Person / Meetup, both banners, short description, description (3,241 characters), America/Chicago 2026-10-22 18:00-20:00, venue fields, General Admission ticket with 50 seats, 7 hosts, 3 sponsors at Gold, one session at 18:30 with the unchanged 1,025-character Sessionize abstract.",
+    "Bill Kennedy (Sessionize: William Kennedy) has no ocgroups.dev speaker profile; searches for 'Bill Kennedy', 'William Kennedy', 'goinggodotnet' and 'Kennedy' found no match, so the session speaker association is blank. His name appears in the description and agenda text.",
+    "Session end time left blank because none was confirmed; event end time is 8:00 PM.",
+    "Description uses 'Cloud Native Austin' for the community name, as chosen by the organizer; the ocgroups.dev group itself is still named 'Kubernetes Austin'.",
+    "After the draft was saved, the organizer set the event Logo to the Cloud Native Austin logo; verified on the draft as a 360 x 360 opaque PNG with a white background.",
+    "Sponsor level Gold and the host list match the previous event (Sep 24, 2026) and the group's current team.",
+    "The organizer marked the Sessionize session Accepted after the draft was created."
+  ],
+  "next_action": "Organizer reviews the draft on ocgroups.dev and publishes it when ready; then prepare the Meetup listing."
+}

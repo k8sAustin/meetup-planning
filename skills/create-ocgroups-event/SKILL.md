@@ -60,8 +60,11 @@ Map the images by manifest role:
 | --- | --- | --- |
 | ocgroups.dev long banner | `ocgroups_long` | Desktop/long banner, 2428 × 192 px by default |
 | ocgroups.dev short banner for mobile | `ocgroups_short_mobile` | Mobile/short banner, 1220 × 192 px by default |
+| Cloud Native Austin logo | `community_logo` (repository asset, not in the artwork manifest) | Event **Logo** field, 360 × 360 px |
 
 Inspect the live upload controls and previews to verify their purpose. These roles describe the artwork contract, not confirmed platform field names. Do not put both images into an unrelated gallery or substitute the meetup.com banner. If the platform exposes only one banner field or requires a different aspect ratio, explain the specific mismatch and obtain the missing decision or adapted artwork; do not silently distort or crop away speakers or sponsors.
+
+Always set the event **Logo** field to the Cloud Native Austin logo. Use [`pictures/logos/cloudnativeaustin-whitebackground.png`](../../pictures/logos/cloudnativeaustin-whitebackground.png) at the repository root as the source. Do not use the old Kubernetes Austin ATX logo, a logo cropped from an event banner, or a sanitized template. The Logo field requires a square 360 × 360 px image of at most 1 MB (SVG, PNG, JPEG, GIF, or WEBP). Resize the full square logo proportionally to 360 × 360 px without cropping, padding, or recoloring; save it with the event outputs as `community-logo-360.png`; verify its dimensions and file size; and upload it to the Logo field. Never leave the Logo field empty, because the platform then falls back to the group logo, which may still be the old one. Record the upload in the handoff's `artwork_assignments` with role `community_logo`.
 
 Follow the organizer form sequence supplied by the user:
 
@@ -76,14 +79,14 @@ When login or organizer permissions are missing, ask the user to complete login 
 
 ## Verify and deliver
 
-Reopen the saved event and confirm the persisted draft/unpublished status, group, title, full date, local times and timezone, location, saved platform agenda entries and session times, exact source abstracts, session details, matched speaker associations (with unmatched fields left blank), sponsors, registration settings, and both artwork mappings where supported. Inspect desktop and mobile previews when available. If draft status or saved content cannot be verified, report that uncertainty instead of claiming success.
+Reopen the saved event and confirm the persisted draft/unpublished status, group, title, full date, local times and timezone, location, saved platform agenda entries and session times, exact source abstracts, session details, matched speaker associations (with unmatched fields left blank), sponsors, registration settings, both banner mappings, and the Cloud Native Austin event logo where supported. Inspect desktop and mobile previews when available. If draft status or saved content cannot be verified, report that uncertainty instead of claiming success.
 
 Save `ocgroups-event-handoff.json` beside the event's artwork handoff or in the user-selected event output directory, outside this skill package. Record:
 
 - `status`: `draft_saved`, `prepared_locally`, or `save_unverified`.
 - `group_name`, `group_url`, platform `event_id` when observed, `draft_url` when available, and `public_url` only if the platform actually provides one; otherwise use null.
 - `event`: title, date, start/end times, timezone, format, venue or online location, description, confirmed speakers and sponsors, session start times, arrival time when applicable, room confirmation, and registration settings actually entered.
-- `artwork_manifest`: relative path to the producer's manifest, plus `artwork_assignments` mapping roles to relative files and observed platform fields.
+- `artwork_manifest`: relative path to the producer's manifest, plus `artwork_assignments` mapping roles (including `community_logo`) to relative files and observed platform fields.
 - `missing_inputs`, `verification_notes`, and `next_action` identifying organizer review and any unresolved items.
 
 Use the platform's actual identifiers and URLs; never invent them. Do not include credentials, cookies, or secret meeting-host links in the handoff. For a local-only result, also save the prepared description as `event-description.md` and list which fields remain unentered.

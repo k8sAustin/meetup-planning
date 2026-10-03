@@ -1,0 +1,71 @@
+{
+  "status": "form_filled_unsaved",
+  "group_url": "https://www.meetup.com/kubernetes-austin/",
+  "form_url": "https://www.meetup.com/kubernetes-austin/schedule/ (organizer create-event form, unsaved; not a public event URL)",
+  "ocgroups_public_url": "https://ocgroups.dev/cncf/group/3up7rjk/event/kwn9j5g",
+  "event": {
+    "title": "Ultimate AI: Go with your own intelligence",
+    "date": "2026-10-22",
+    "start_time": "18:00",
+    "duration": "2 hours",
+    "end_time": "20:00",
+    "timezone": "America/Chicago (form shows CDT)",
+    "location_header": "701 Brazos Street - 701 Brazos St, Austin, TX 78701, USA",
+    "how_to_find_us": "Station Austin - Apollo Room, 1st Floor. Upon arrival at the building, please proceed to the 1st Floor, Apollo Room (look for Capital Factory signs). We'll be there after 5:45 pm.",
+    "description_file": "meetup-event-description.md",
+    "sessions": [
+      {
+        "title": "Ultimate AI: Go with your own intelligence",
+        "start_time": "18:30",
+        "speakers": [
+          "Bill Kennedy"
+        ]
+      }
+    ],
+    "sponsors": [
+      "Station Austin",
+      "Cast AI",
+      "Ardan Labs"
+    ],
+    "banner": "meetup.com-banner.png",
+    "topics": [
+      "Kubernetes",
+      "Open Source",
+      "Cloud Computing",
+      "DevOps",
+      "CNCF"
+    ],
+    "attendee_limit": 1,
+    "guests_allowed": false,
+    "registration_question": null,
+    "rsvp_window": null,
+    "paid": false,
+    "speaker_field": "Not available (Meetup Pro upgrade required); speaker name is in the description"
+  },
+  "comments_disabled": true,
+  "event_chat_disabled": true,
+  "reference_event_url": "https://www.meetup.com/kubernetes-austin/events/316594562/",
+  "hosts": [
+    "Rafael Brito",
+    "Harsha Thirimanna",
+    "Myroslav Mishov",
+    "Akshay Mittal",
+    "Cris Nevares"
+  ],
+  "ocgroups_handoff": "ocgroups-event-handoff.json",
+  "artwork_manifest": "artwork-manifest.json",
+  "missing_inputs": [],
+  "verification_notes": [
+    "ocgroups.dev event verified PUBLISHED in the dashboard and publicly reachable without login at the recorded URL (Oct 22, 2026, 6:00-8:00 PM CDT, Apollo Room, Bill Kennedy).",
+    "No existing Oct 22, 2026 Meetup event or draft; the only draft in the group is an unrelated Oct 24, 2024 event, left untouched.",
+    "Started from a blank form (Start from scratch), not a duplicate.",
+    "Reference event settings read from the organizer page data: 5 hosts, topics Cloud Computing/Open Source/DevOps/Kubernetes/CNCF, attendee limit 1, guests not allowed, event chat off. The new form mirrors these.",
+    "Description set in the editor and verified: editor Markdown equals meetup-event-description.md (3,418 characters), with blank lines between sections and both opening and closing RSVP links to the ocgroups public URL.",
+    "Description uses 'Cloud Native Austin' as in the saved ocgroups event; the Meetup group itself is still named 'Kubernetes Austin'.",
+    "Event chat and Allow comments switches verified off in the form.",
+    "Banner attached through the photo crop dialog; the crop showed the full 1200 x 675 image with no clipping. The event itself stayed unsaved.",
+    "Preview was not opened because it was not confirmed to be save-free; the form was reviewed directly.",
+    "Checked the group's drafts and upcoming events after filling: no new event or draft was created."
+  ],
+  "next_action": "Organizer reviews the open Meetup form, saves and publishes it, then announces the event."
+}

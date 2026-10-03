@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "event": {
+    "community": "Cloud Native Austin",
+    "date": "2026-10-22",
+    "start_time": "18:00",
+    "timezone": "America/Chicago",
+    "title": null
+  },
+  "sessions": [
+    {
+      "title": "Ultimate AI: Go with your own intelligence",
+      "speaker_ids": [
+        "bill-kennedy"
+      ],
+      "source_url": null
+    }
+  ],
+  "speakers": [
+    {
+      "id": "bill-kennedy",
+      "display_name": "Bill Kennedy",
+      "photo_source_url": "https://cdn.sessionize.com/image/2749-0o0o0-LTyVDDpat5GdTp4RUccLzm.png"
+    }
+  ],
+  "sponsors": [
+    {
+      "name": "Station Austin",
+      "logo_source_url": "https://stationaustin.org/wp-content/themes/stationaustin/img/logo.png"
+    },
+    {
+      "name": "Cast AI",
+      "logo_source_url": "https://cast.ai/wp-content/uploads/2025/01/logo-cast-ai-black.svg"
+    },
+    {
+      "name": "Ardan Labs",
+      "logo_source_url": "https://www.ardanlabs.com/images/ardan-labs-badge.svg"
+    }
+  ],
+  "artworks": [
+    {
+      "role": "ocgroups_short_mobile",
+      "file": "ocgroups.dev-short-banner-mobile.png",
+      "width": 1220,
+      "height": 192,
+      "mime_type": "image/png",
+      "alt_text": "Cloud Native Austin banner with cloudnativeaustin.com, sponsors Station Austin, Cast AI and Ardan Labs, and speaker Bill Kennedy."
+    },
+    {
+      "role": "ocgroups_long",
+      "file": "ocgroups.dev-long-banner.png",
+      "width": 2428,
+      "height": 192,
+      "mime_type": "image/png",
+      "alt_text": "Cloud Native Austin banner with cloudnativeaustin.com, sponsors Station Austin, Cast AI and Ardan Labs, and speaker Bill Kennedy."
+    },
+    {
+      "role": "meetup_banner",
+      "file": "meetup.com-banner.png",
+      "width": 1200,
+      "height": 675,
+      "mime_type": "image/png",
+      "alt_text": "Cloud Native Austin meetup: Bill Kennedy presents \"Ultimate AI: Go with your own intelligence\" on Oct 22 at 6:00 PM, sponsored by Station Austin, Cast AI and Ardan Labs."
+    }
+  ],
+  "missing_inputs": [],
+  "notes": [
+    "Session title and speaker come from the Sessionize organizer view (event 13876, session 1329519); no public session URL is recorded.",
+    "Speaker display name 'Bill Kennedy' was chosen by the organizer; the Sessionize profile name is 'William Kennedy'.",
+    "Start time 6:00 PM America/Chicago was supplied by the organizer and is shown on the meetup.com banner; the calendar shows OCT 22 (year 2026, Thursday, not displayed).",
+    "Single session: no '&' separators; on the meetup.com banner the title is broken after the colon.",
+    "Sponsor order Station Austin, Cast AI, Ardan Labs is used in all three graphics. Ardan Labs uses its hexagon badge, the primary logo on ardanlabs.com, because its published wordmark is white text for dark backgrounds.",
+    "ocgroups.dev banners place sponsor logos on white cards the same height as the speaker portrait; the meetup.com banner places them directly on white."
+  ]
+}
