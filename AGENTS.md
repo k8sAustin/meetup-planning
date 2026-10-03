@@ -37,7 +37,7 @@ Follow each skill's detailed prerequisites, field mappings, templates, and verif
 
 - Keep canonical skill instructions and supporting resources under `skills/`.
 - Preserve `.agents/skills/` and `.claude/skills/` discovery links to those canonical directories; do not maintain separate copies.
-- Keep reusable artwork examples sanitized: remove personal information and sponsor logos; the Kubernetes Austin logo may remain.
+- Keep reusable artwork examples sanitized: remove personal information and sponsor logos; the Cloud Native Austin community logo may remain.
 - Save event-specific artwork, descriptions, and handoffs outside the skill packages, in the event output directory.
 - When updating workflows, keep linked documentation consistent. Check references before deleting assets and remove only assets no longer used.
 - After documentation changes, verify local Markdown links and skill discovery links. After skill changes, validate the affected skill when a validator is available.
